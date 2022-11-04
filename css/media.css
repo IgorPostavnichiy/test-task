@@ -1,0 +1,159 @@
+@media (max-width: 1412px) {
+
+    main {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1340px) {
+
+    .hello_title {
+        margin-left: 200px;
+}
+
+}
+
+@media (max-width: 1340px) {
+
+    .hello_title {
+        margin-left: 300px;
+}
+}
+
+@media (max-width: 1140px) {
+
+    main {
+        width: 650px;
+    }
+
+    .container {
+        overflow: auto;
+    }
+
+    .section_wrapper {
+        margin-left: 0;
+    }
+
+    .section_wrapper {
+        border-spacing: 15px;
+        margin-left: 15px;
+    } 
+
+    .item_header {
+        font-size: 10px;
+    }
+
+    .item_content {
+        font-size: 10px;
+        padding-bottom: 10px;
+}
+
+}
+
+@media (max-width: 1084px) {
+
+    .section_wrapper {
+        border-spacing: 10px;
+        margin-left: 10px;
+    } 
+
+    .item_header {
+        font-size: 8px;
+    }
+
+    .item_content {
+        font-size: 8px;
+        padding-bottom: 5px;
+    }
+
+    .block_title_text {
+        font-size: 18px;
+    }
+
+    .hello_title_text {
+        font-size: 18px;
+    }
+
+    .side_title_text {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 1034px) {
+
+    .item_header_list {
+        display: none; 
+    }
+
+    .block_section_content {
+        display: block;
+        border-bottom: none;
+
+    }
+
+    .item_content {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        
+    }
+
+    .btn_active {
+        width: 50px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .btn_inactive {
+        width: 50px;
+        height: 25px;        
+        font-size: 10px;
+    }
+
+    .sidenav a {
+        font-size: 12px;
+    }
+
+    .footer_pagination {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 952px) {
+
+    .footer_block {
+        display: block;
+    }
+
+    .footer_text {
+        margin-bottom: 15px;
+    }
+
+    .hello_title {
+        text-align: center;
+}
+
+    .header_wrapper {
+        display: block;
+    }
+
+    .block_search {
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 912px) {
+
+    .hello_title {
+        text-align: left;
+        padding-left: 65px;
+}
+
+}
+
+@media  (max-height: 900px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 15px;}
+  }
